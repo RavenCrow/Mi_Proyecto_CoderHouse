@@ -30,7 +30,9 @@ margin: 0%;}
         h2{color: red; background-color: black ;
                 font-family: 'Open Sans Condensed', sans-serif;
         border: gold 10px;
-        border-style: ridge;}
+        border-style: ridge;
+        font-variant: small-caps;
+        text-decoration: underline ;}
 
         body{   
                 background-image:  url(/imagenes/pexels-picjumbocom-196652.jpg) ;
@@ -51,6 +53,7 @@ margin: 0%;}
                 background-size: auto;
                 border-bottom: gold 10px;
                 border-bottom-style: ridge;
+                font-variant: small-caps;
                 
                 
         }
@@ -60,7 +63,6 @@ margin: 0%;}
         .btn{
                 
                 text-align: center;
-                color: red;
                 text-decoration: none;
                 font-weight: bold;
                 font-family: 'Open Sans Condensed', sans-serif;
@@ -69,19 +71,30 @@ margin: 0%;}
                 display: inline-block;
                 flex: none;
                 flex-direction: row;
-                width: 120px;
-                height: 35px;
+                width: 170px;
+                height: 50px;
                 background-color: transparent;
                 
                 border-style: ridge;
                 transition: all 1s;    
         }
         .btn:hover, .nav4:hover{
-                border: 4px gold;
+                
                 transform: skewY(0deg);
                 border-style: ridge;
                 background-image: linear-gradient(to bottom, black, silver);
                 color: gold;}
+        
+        .nav-item:hover{
+                border: 4px gold;
+                transform: skewY(0deg);
+                border-style: ridge;
+                background-image: linear-gradient(to bottom, black, silver);
+                color: gold;
+        }
+
+
+        
 
         
 
