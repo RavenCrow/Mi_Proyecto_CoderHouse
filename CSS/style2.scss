@@ -1,3 +1,4 @@
+/* Variables */
 $color1: red;
 $color2: black;
 $color3: gold ;
@@ -5,13 +6,18 @@ $color4: silver;
 $botonAncho1: 170px;
 $botonAlto1: 50px;
 
+/* Barra de navegacion */
+
 .navbar{
-    background-color: $color2;
+    border: 10px $color1;
+    border-style: ridge;
+    align-items: baseline ;
     
 }
 
-.navbar-brand{
+.navbar-brand a{
     text-align: center;
+    color: $color3;
 }
 
 .nav-item{
@@ -22,7 +28,7 @@ $botonAlto1: 50px;
     height: $botonAlto1;
     border: 5px $color3;
     border-style: ridge;
-    transform: skewY( 10px );
+    
 }
 
 
@@ -31,6 +37,12 @@ $botonAlto1: 50px;
     background-image: url(/imagenes/IconEspectaculares.png);
 }
 
+.dropdown-menu{
+    background-color: black;
+    border: 5px $color3;
+    border-style: ridge;
+}
+/* Encabezado */
 .encabezado__titulo{
     width: 100%;
     text-align: center;
@@ -43,8 +55,9 @@ $botonAlto1: 50px;
     
     }
 
+    /* Tabla de presentacion */
 .tablaPresentacion{
-    height: 400px;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .tablaPresentacion__tabla{
@@ -52,8 +65,11 @@ $botonAlto1: 50px;
     color: $color3;
     font-family: 'Open Sans Condensed', sans-serif
     ;
-    margin: 20px;
-    border: 5px red;
+    border-color: $color1;
+    border-left: 20px $color1;
+    
+    border-right: 20px $color1;
+
     border-style: ridge}
 
 .tablaPresentacion__tabla th{
@@ -63,9 +79,9 @@ $botonAlto1: 50px;
     color: $color4;
 }
 
-
+/* Contactos */
 .contactos__wathsapp{
-    padding-left: 30px;
+    padding-left: 35px;
     background-image: url(/imagenes/whatsapp.png);
     background-repeat: no-repeat;
     background-position: left;
