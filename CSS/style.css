@@ -9,19 +9,19 @@ margin: 0%;}
         /* Mobile Styles */
         @media only screen and (max-width: 400px) {
         body {
-          background-color: #F09A9D; 
+           
         }
       }
       /* Tablet Styles */
       @media only screen and (min-width: 401px) and (max-width: 960px) {
         body {
-          background-color: #F5CF8E; 
+           
         }
       }
       /* Desktop Styles */
       @media only screen and (min-width: 961px) {
         body {
-          background-color: #B2D6FF; 
+           
         }
       }
       
@@ -196,22 +196,22 @@ margin: 0%;}
         }
 
         .cantButton1 button{
-                background-image: url(/imagenes/Baterista.jpg);
+                background-image: url(./imagenes/Baterista.jpg);
         }
         .cantButton2 button{
-                background-image: url(/imagenes/Cantante.jpg);
+                background-image: url(./imagenes/Cantante.jpg);
         }
         .cantButton3 button{
-                background-image: url(/imagenes/Guitarrista.jpg);
+                background-image: url(./imagenes/Guitarrista.jpg);
         }
         .cantButton4 button{
-                background-image: url(/imagenes/Pianista.jpg);
+                background-image: url(./imagenes/Pianista.jpg);
         }
         .cantButton5 button{
-                background-image: url(/imagenes/Saxofonista.jpg);
+                background-image: url(./imagenes/Saxofonista.jpg);
         }
         .cantButton6 button{
-                background-image: url(/imagenes/Violinista.jpg);
+                background-image: url(./imagenes/Violinista.jpg);
         }
         /* Pie de pagina */
         footer{
