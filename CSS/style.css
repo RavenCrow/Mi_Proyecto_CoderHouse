@@ -110,20 +110,34 @@ margin: 0%;}
         .eventButton {
                 margin-top: 10px;
                 margin-bottom: 10px;
-                width: 20em ;
-                height: 20em;
-                
-                flex: auto;
+                display: flex;
                 flex-direction: row;
+                width: 100%;
                 border: 5px solid rgb(85, 21, 21);
                 border-style: ridge;
-                justify-items: center;
+                
                 transition: all 1s;
         }
 
         .eventButton1{
-                width: 200px;
+                width: 100%;
+                height: 100%;
                 background-image: url(/imagenes/GrupoMusicalEspectaculares.jpg);
+                background-size: contain;
+                background-repeat: no-repeat
+        }
+
+        .eventButton3{
+                width: 100%;
+                height: 100%;
+                background-image: url(/imagenes/ConceptoDJ.jpg);
+                background-size: contain;
+                background-repeat: no-repeat
+        }
+        .eventButton2{
+                width: 100%;
+                height: 100%;
+                background-image: url(/imagenes/BigBandShow.jpg);
                 background-size: contain;
                 background-repeat: no-repeat
         }
@@ -196,22 +210,22 @@ margin: 0%;}
         }
 
         .cantButton1 button{
-                background-image: url(./imagenes/Baterista.jpg);
+                background-image: url(/imagenes/Baterista.jpg);
         }
         .cantButton2 button{
-                background-image: url(./imagenes/Cantante.jpg);
+                background-image: url(/imagenes/Cantante.jpg);
         }
         .cantButton3 button{
-                background-image: url(./imagenes/Guitarrista.jpg);
+                background-image: url(/imagenes/Guitarrista.jpg);
         }
         .cantButton4 button{
-                background-image: url(./imagenes/Pianista.jpg);
+                background-image: url(/imagenes/Pianista.jpg);
         }
         .cantButton5 button{
-                background-image: url(./imagenes/Saxofonista.jpg);
+                background-image: url(/imagenes/Saxofonista.jpg);
         }
         .cantButton6 button{
-                background-image: url(./imagenes/Violinista.jpg);
+                background-image: url(/imagenes/Violinista.jpg);
         }
         /* Pie de pagina */
         footer{
